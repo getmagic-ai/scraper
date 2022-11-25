@@ -9,5 +9,3 @@ export async function scrapeAll(browserInstance) {
     console.log("could not resolve browser isntance -> ", error);
   }
 }
-
-//module.exports = (browserInstance) => scrapeAll(browserInstance)
